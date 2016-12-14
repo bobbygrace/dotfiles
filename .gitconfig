@@ -1,0 +1,28 @@
+[merge]
+	tool = vimdiff
+
+[alias]
+  st = status
+  co = checkout
+  b = branch
+  br = branch
+  ci = commit
+  com = commit
+  hist = log --oneline --graph --decorate --topo-order
+
+[color]
+  ui = auto
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+
+[user]
+	name = Bobby Grace
+	email = johnrobertgracejr@gmail.com
+
+[core]
+	excludesfile = "~/.gitignore_global"
+
+[push]
+	default = matching

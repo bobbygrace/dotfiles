@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+
+brew tap caskroom/cask
+
+brew install git ack jq ngrok tree bash-completion nvm brew-cask imagemagick\
+  graphicsmagick wget
+
+brew cask install atom

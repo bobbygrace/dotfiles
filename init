@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+ln -s $PWD/.ackrc ~
+ln -s $PWD/.bashrc ~
+ln -s $PWD/.gitconfig ~
+ln -s $PWD/.vimrc ~
+ln -s $PWD/.gitignore_global ~
+
+curl -o https://github.com/git/git/blob/master/contrib/completion/git-completion.bash ~/
