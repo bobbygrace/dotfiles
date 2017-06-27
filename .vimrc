@@ -11,7 +11,6 @@
 "       - less.vim
 
 " http://www.vim.org/scripts/script.php?script_id=2332
-call pathogen#incubate()
 call pathogen#helptags()
 call pathogen#infect()
 
